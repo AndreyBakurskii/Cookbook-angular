@@ -10,10 +10,10 @@ import { RECIPE_OMELET_DATA } from './recipe-omelet.data';
   styleUrls: ['./recipe-omelet.component.css'],
 })
 export class RecipeOmeletComponent implements OnInit {
-  recipe: Recipe;
+  // recipe: Recipe;
 
   constructor() {
-    this.recipe = RECIPE_OMELET_DATA;
+    // this.recipe = RECIPE_OMELET_DATA;
   }
   ngOnInit() {}
 }
